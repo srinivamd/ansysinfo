@@ -1,0 +1,46 @@
+Disk /dev/sda: 1.8 TiB, 1920383410176 bytes, 3750748848 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 1A70C2C0-9FD2-4FC6-8A52-C56784BB4D1B
+
+Device        Start        End    Sectors  Size Type
+/dev/sda1      2048   10487807   10485760    5G EFI System
+/dev/sda2  10487808   18876415    8388608    4G Linux filesystem
+/dev/sda3  18876416 3750748159 3731871744  1.8T Linux LVM
+
+
+Disk /dev/sdc: 28.7 GiB, 30765219840 bytes, 60088320 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x0a6486aa
+
+Device     Boot Start      End  Sectors  Size Id Type
+/dev/sdc1  *     2048 60088319 60086272 28.7G  c W95 FAT32 (LBA)
+
+
+Disk /dev/mapper/cl-root: 1.7 TiB, 1869170606080 bytes, 3650723840 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/cl-swap: 4 GiB, 4294967296 bytes, 8388608 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/cl-var: 15 GiB, 16106127360 bytes, 31457280 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/cl-home: 19.7 GiB, 21143486464 bytes, 41295872 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
