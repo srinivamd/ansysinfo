@@ -1,0 +1,44 @@
+  *-disk
+       description: SCSI Disk
+       product: Ultra USB 3.0
+       vendor: SanDisk
+       physical id: 0.0.0
+       bus info: scsi@2:0.0.0
+       logical name: /dev/sdb
+       version: 1.00
+       serial: 050182baccc2420da34d
+       size: 28GiB (30GB)
+       capabilities: removable
+       configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512
+     *-medium
+          physical id: 0
+          logical name: /dev/sdb
+          size: 28GiB (30GB)
+          capabilities: partitioned partitioned:dos
+          configuration: signature=0a6486aa
+  *-disk
+       description: SCSI Disk
+       product: SD/MMC CRW
+       vendor: Generic-
+       physical id: 0.0.0
+       bus info: scsi@1:0.0.0
+       logical name: /dev/sdc
+       version: 1.00
+       serial: 2012062914345300
+       capabilities: removable
+       configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512
+     *-medium
+          physical id: 0
+          logical name: /dev/sdc
+  *-disk
+       description: ATA Disk
+       product: MK001920GWCFB
+       vendor: Toshiba
+       physical id: 0.0.0
+       bus info: scsi@0:0.0.0
+       logical name: /dev/sda
+       version: HPG2
+       serial: S3BPNX0JA17156
+       size: 1788GiB (1920GB)
+       capabilities: gpt-1.00 partitioned partitioned:gpt
+       configuration: ansiversion=6 guid=1a70c2c0-9fd2-4fc6-8a52-c56784bb4d1b logicalsectorsize=512 sectorsize=512
